@@ -1,0 +1,135 @@
+[
+  {
+      "id": 0,
+      "fabricante": "Grafica Nvidia",
+      "modelo": "Ventus",
+      "stock": 4,
+      "serie": "GTX 1650",
+      "memoria": "4GB de vram",
+      "precio": 68000,
+      "img": "img/gtx1650.jpg",
+      "cantidad": 1,
+      "categoria": "grafica"
+    }, {
+      "id": 1,
+      "fabricante": "Grafica Nvidia",
+      "modelo": "Zotac",
+      "stock": 8,
+      "serie": "GTX 1660 SUPER",
+      "memoria": "6GB de vram",
+      "precio": 87000,
+      "img": "img/gtx1660.jpg",
+      "cantidad": 1,
+      "categoria": "grafica"
+    }, {
+      "id": 2,
+      "fabricante": "Grafica Nvidia",
+      "modelo": "Zotac",
+      "stock": 17,
+      "serie": "RTX 2060",
+      "memoria": "12GB de vram",
+      "precio": 94000,
+      "img": "img/rtx2060.jpg",
+      "cantidad": 1,
+      "categoria": "grafica"
+    }, {
+      "id": 3,
+      "fabricante": "Grafica Nvidia",
+      "modelo": "Zotac",
+      "stock": 22,
+      "serie": "RTX 3050",
+      "memoria": "8GB de vram",
+      "precio": 98000,
+      "img": "img/rtx3050.jpg",
+      "cantidad": 1,
+      "categoria": "grafica"
+    }, {
+      "id": 4,
+      "fabricante": "Grafica Amd",
+      "modelo": "XFX",
+      "stock": 6,
+      "serie": "Rx 6500 XT",
+      "memoria": "4GB de vram",
+      "precio": 52000,
+      "img": "img/rx6500xt.jpg",
+      "cantidad": 1,
+      "categoria": "grafica"
+    }, {
+      "id": 5,
+      "fabricante": "Grafica Amd",
+      "modelo": "XFX",
+      "stock": 15,
+      "serie": "Rx 6600",
+      "memoria": "8GB de vram",
+      "precio": 78000,
+      "img": "img/rx6600.jpg",
+      "cantidad": 1,
+      "categoria": "grafica"
+    }, {
+      "id": 6,
+      "fabricante": "Grafica Amd",
+      "modelo": "Asrock",
+      "stock": 20,
+      "serie": "Rx 6700 XT",
+      "memoria": "12GB de vram",
+      "precio": 109000,
+      "img": "img/rx6700xt.jpg",
+      "cantidad": 1,
+      "categoria": "grafica"
+    },{
+      "id": 7,
+      "fabricante": "Procesador Amd",
+      "modelo": "Ryzen",
+      "stock": 20,
+      "serie": "RYZEN 5 3600",
+      "memoria": "4.2 GHZ",
+      "precio": 31990,
+      "img": "img/ryzen53600.jpg",
+      "cantidad": 1,
+      "categoria": "procesador"
+    },{
+      "id": 8,
+      "fabricante": "Procesador Intel",
+      "modelo": "Intel",
+      "stock": 20,
+      "serie": "Intel i3-9100f",
+      "memoria": "4.2 GHZ",
+      "precio": 20308,
+      "img": "img/i39100.jpg",
+      "cantidad": 1,
+      "categoria": "procesador"
+    },{
+      "id": 9,
+      "fabricante": "Procesador Intel",
+      "modelo": "Intel",
+      "stock": 20,
+      "serie": "Intel i5-10400f",
+      "memoria": "4.3 GHZ",
+      "precio": 33019,
+      "img": "img/i510400.jpg",
+      "cantidad": 1,
+      "categoria": "procesador"
+    },{
+      "id": 10,
+      "fabricante": "Procesador Amd",
+      "modelo": "Amd",
+      "stock": 20,
+      "serie": "Ryzen 5 4500",
+      "memoria": "4.1 GHZ",
+      "precio": 40308,
+      "img": "img/ryzen54500.jpg",
+      "cantidad": 1,
+      "categoria": "procesador"
+    },{
+      "id": 11,
+      "fabricante": "Procesador Amd",
+      "modelo": "Amd",
+      "stock": 20,
+      "serie": "Ryzen 7 4500",
+      "memoria": "4.6 GHZ",
+      "precio": 60308,
+      "img": "img/ryzen75700.jpg",
+      "cantidad": 1,
+      "categoria": "procesador"
+    }
+]

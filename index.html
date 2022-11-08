@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Proyecto final</title>
+  <link rel="icon" href="img/favicon.png">
+</head>
+
+<body>
+  <header class="titulo">
+    <h1>T&T</h1>
+  </header>
+  <div class="container-fluid">
+    <form class="d-flex login" id="loginForm">
+      <button id="btnModalLogin" class="btn btn-outline-primary me-2 toggles" type="button" data-bs-toggle="modal"
+        data-bs-target="#modalLogin">Login</button>
+      <button id="btnLogout" class="btn btn-outline-secondary d-none toggles" type="button">Logout</button>
+    </form>
+    <button type="button" class="btn btn-dark btnCarrito">Carrito</button>
+  </div>
+  <p id="nombreUsuario" class="saludo"></p>
+  <div class="modal" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modalLoginLabel">Ingresá</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body py-2 px-4">
+          <input id="emailLogin" class="form-control my-4" type="email" placeholder="Ingresa tu correo electrónico"
+            required>
+          <input id="passwordLogin" class="form-control my-4" type="password" placeholder="Ingresa tu contraseña"
+            required>
+        </div>
+        <div class="modal-footer d-block">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="recordarme">
+            <label class="form-check-label" for="recordarme">Recordarme en este equipo</label>
+          </div>
+          <button class="btn btn-outline-primary" id="login" type="submit">Ingresar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="botones">
+      <button type="button" class="btn btn-dark btnInicio d-none">Inicio</button>
+      <button type="button" class="btn btn-success btnPagar d-none">Pagar</button>
+    </div>
+  </div>
+  <div>
+    <form id="categorias">
+      <label class="categorias">
+        <input type="radio" name="categoria" value="Graficas">
+        Graficas
+      </label>
+      <label class="categorias">
+        <input type="radio" name="categoria" value="Procesadores">
+        Procesadores
+      </label>
+      <label class="categorias">
+        <input type="radio" name="categoria" value="Todo" checked>
+        Mostrar todo
+      </label>
+    </form>
+    <div class="carrito d-none">
+      <div class="container text-center">
+        <div class="row carritoItems">
+
+        </div>
+      </div>
+      <div class="procesado">
+        <form id="form">
+          <label><input type="radio" name="cuotas" value="1" id="0meses" class="cuotas" checked> Numero de cuotas
+            1</label>
+          <label><input type="radio" name="cuotas" value="3" id="3meses" class="cuotas"> Numero de cuotas 3</label>
+          <label><input type="radio" name="cuotas" value="6" id="6meses" class="cuotas"> Numero de cuotas 6</label>
+          <label><input type="radio" name="cuotas" value="9" id="9meses" class="cuotas"> Numero de cuotas 9</label>
+          <label><input type="radio" name="cuotas" value="24" id="24meses" class="cuotas"> Numero de cuotas 24</label>
+        </form>
+      </div>
+      <div class="precio">
+        Total: $0
+      </div>
+      <div class="cuota">
+        
+      </div>
+    </div>
+    <div class="caja">
+      <div class="container text-center">
+        <div class="row main">
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+      </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+.card img {
+  height: 300px !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.card {
+  margin-bottom: 10px;
+  width: 18rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.desaparecer {
+  display: none;
+}
+
+.mas {
+  margin-bottom: 16px;
+}
+
+.menos {
+  margin-bottom: 16px;
+}
+
+.quitar {
+  margin-bottom: 16px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.login {
+  display: flex;
+  justify-content: right;
+  margin: 5px;
+}
+
+.saludo {
+  margin: 5px;
+}
+
+.cuotas {
+  margin: 10px;
+}
+
+.categorias {
+  margin: 10px;
+}
+
+.titulo {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(135deg, rgba(255, 0, 0, 1) 5%, rgba(0, 0, 0, 1) 10%, rgba(255, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 20%, rgba(255, 0, 0, 1) 25%, rgba(0, 0, 0, 1) 30%, rgba(255, 0, 0, 1) 35%, rgba(0, 0, 0, 1) 40%, rgba(255, 0, 0, 1) 45%, rgba(0, 0, 0, 1) 50%, rgba(255, 0, 0, 1) 55%, rgba(0, 0, 0, 1) 60%, rgba(255, 0, 0, 1) 65%, rgba(0, 0, 0, 1) 70%, rgba(255, 0, 0, 1) 75%, rgba(0, 0, 0, 1) 80%, rgba(255, 0, 0, 1) 85%, rgba(0, 0, 0, 1) 90%, rgba(255, 0, 0, 1) 95%);
+  border: solid 5px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+}
